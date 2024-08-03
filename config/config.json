@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "sametkamgul",
+    "password": 123,
+    "database": "node-commerce",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
