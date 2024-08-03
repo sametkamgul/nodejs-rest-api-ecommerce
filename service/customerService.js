@@ -45,5 +45,4 @@ async function createCustomer(
   return customer;
 }
 
-module.exports.getCustomer = getCustomer;
-module.exports.createCustomer = createCustomer;
+module.exports = { getCustomer, createCustomer };

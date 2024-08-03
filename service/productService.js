@@ -67,8 +67,10 @@ async function updateProduct(product) {
   return updatedProduct;
 }
 
-module.exports.getProducts = getProducts;
-module.exports.getProduct = getProduct;
-module.exports.insertProduct = insertProduct;
-module.exports.deleteProduct = deleteProduct;
-module.exports.updateProduct = updateProduct;
+module.exports = {
+  getProducts,
+  getProduct,
+  insertProduct,
+  deleteProduct,
+  updateProduct,
+};
